@@ -51,7 +51,7 @@ configurada de acordo com os campos definidos na parte de dados do [`Main.asm`][
 
 ---
 
-### Implementapor
+### Implementação
 Na nossa implementação cada célula é representada por um pixel, sendo o seu
 estado uma cor (Preto = Morta, Com cor = Viva) e o campo que contém as células
 é uma região continua na memória. Para poder guardar todas as essas informações
