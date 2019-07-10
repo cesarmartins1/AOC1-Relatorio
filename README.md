@@ -28,14 +28,11 @@ Sabendo disso, o jogo considera quatro regras básicas:
 ### Em pseudo-código as regras seriam equivalente à algo do tipo:
 
 if (celula está morta)
-  
   if(celula tem 3 vizinhos) estado = viva
   
 if (celula está viva)
-  
-  if(celula tem 2 ou 3 vizinhos) estado = vida
-  
-  else estado = morta
+   if(celula tem 2 ou 3 vizinhos) estado = vida
+   else estado = morta
 
 ---
 
